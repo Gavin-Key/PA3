@@ -1,0 +1,23 @@
+Script started on 2019-03-24 23:25:50-05:00
+]0;bowfyre@Computer: ~/Desktop/Project[01;32mbowfyre@Computer[00m:[01;34m~/Desktop/Project[00m$ exit./myshell.distro gcc myshell.c -o myshell.distro
+]0;bowfyre@Computer: ~/Desktop/Project[01;32mbowfyre@Computer[00m:[01;34m~/Desktop/Project[00m$ gcc myshell.c -o myshell.distroexit[Kgcc myshell.c -o myshell.distro[Kgcc myshell.c -o myshell.distroexit[K./myshell.distro 
+[H[J*********MYSHELL*************
+ Make sure to put a single space between all tokens including special symbols such as ';', '>', and '|' 
+Note: I was unable to get grep working but piping in general should work 
+ls -l
+total 48
+-rw-rw-r-- 1 bowfyre bowfyre  4637 Mar 24 23:24 Documentation.docx
+-rw-r--r-- 1 bowfyre bowfyre  4624 Mar 24 23:20 myshell.c
+-rwxr-xr-x 1 bowfyre bowfyre 17536 Mar 24 23:25 myshell.distro
+-rw-r--r-- 1 bowfyre bowfyre 11075 Mar 24 23:25 PA03_Gavin_Key.zip
+-rw-r--r-- 1 bowfyre bowfyre     0 Mar 24 23:25 proof_of_compilation
+clear;  ; ls  
+[3J[H[2JDocumentation.docx  myshell.distro	proof_of_compilation
+myshell.c	    PA03_Gavin_Key.zip
+ls | sort | c wc
+      5       5      84
+^C
+]0;bowfyre@Computer: ~/Desktop/Project[01;32mbowfyre@Computer[00m:[01;34m~/Desktop/Project[00m$ exit
+exit
+
+Script done on 2019-03-24 23:26:51-05:00
